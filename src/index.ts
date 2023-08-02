@@ -1,7 +1,11 @@
 import puppeteer from "@cloudflare/puppeteer";
 import { Buffer } from "node:buffer";
 
-globalThis.Buffer = Buffer;
+/*
+ * Without this, pupeeter throws error
+ *
+ */
+// globalThis.Buffer = Buffer;
 /**
  * Welcome to Cloudflare Workers! This is your first worker.
  *
