@@ -1,0 +1,6 @@
+name = "screenshot_api_sdk"
+main = "src/index.ts"
+compatibility_date = "2023-07-27"
+compatibility_flags = ["nodejs_compat"]
+
+browser = {binding = "BROWSER", type = "browser"}
